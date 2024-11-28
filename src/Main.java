@@ -8,6 +8,10 @@ public class Main {
         Dancer dancer = new Dancer("Steve", "dancer", "kiss");
         Singer singer = new Singer("Criss", "singer", "linking park");
 
+        System.out.println(programmer.coding("calculator"));
+        System.out.println(dancer.dancing("dance"));
+        System.out.println(singer.singing("in the end"));
+
 
         System.out.println(programmer);
         System.out.println(dancer);

@@ -1,20 +1,16 @@
 import java.time.LocalDate;
+import Animals.*;
 
 public class Main {
     public static void main(String[] args) {
-        Person person = new Person();
+        Animal animal = new Animal();
+        Lion lion = new Lion("Lion");
+        Elephant elephant = new Elephant("Elephant");
+        Monkey monkey = new Monkey("Monkey");
 
-        Programmer programmer = new Programmer("Jone", "programmer", "Google");
-        Dancer dancer = new Dancer("Steve", "dancer", "kiss");
-        Singer singer = new Singer("Criss", "singer", "linking park");
+        lion.makeSound("Ррр, Я лев!");
+        elephant.makeSound("Тру-у-у, Я слон!");
+        monkey.makeSound("У-у-у, я обезьяна!");
 
-        System.out.println(programmer.coding("calculator"));
-        System.out.println(dancer.dancing("dance"));
-        System.out.println(singer.singing("in the end"));
-
-
-        System.out.println(programmer);
-        System.out.println(dancer);
-        System.out.println(singer);
     }
 }
